@@ -1,0 +1,269 @@
+
+
+/*Message List Content*/
+.k-chat .k-message-list-content {
+    padding: 0px;
+}
+
+
+/*Author*/
+.k-chat .k-author {
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+/*Avatar*/
+.k-message-group:not(.k-alt)>.k-avatar {
+    box-shadow: 0px 5px 22px -8px #0d2451;
+    bottom: unset;
+    margin-bottom: 5px;
+    position:relative;
+    margin: 3px;
+}
+
+/*Message Group*/
+.k-avatars .k-message-group:not(.k-alt):not(.k-no-avatar) {
+    padding-left: 0px; 
+}
+
+/* Single Messages*/
+.k-chat .k-message {
+    margin: 8px 0 0;
+}
+
+/* Bubble Text Message*/
+.k-chat .k-message-group:not(.k-alt) .k-first .k-bubble, 
+.k-chat .k-message-group:not(.k-alt) .k-only .k-bubble,
+.k-chat .k-message-group:not(.k-alt) .k-last .k-bubble, 
+.k-chat .k-message-group:not(.k-alt) .k-middle .k-bubble {
+    border-bottom-right-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.k-chat .k-bubble {
+    border-color: #f7f7f7;
+    color: #0d2451;
+    background-color: #f7f7f7;
+}
+
+/*List Messages*/
+.k-chat .k-card-list {
+    margin: 8px 0 0;
+}
+.k-card-list .k-card {
+    border: 0;
+}
+/* Cards */
+
+.k-card {
+    padding: 2%;
+    margin: 5%;
+}
+
+.k-card>.k-card-actions {
+    display: inline-block;
+}
+
+span.k-card-action:before {
+    display: block;
+    top: 0;
+    left: 0;
+    position: relative;
+    margin: 0px auto;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    font-size: 4em;
+    font-style: inherit;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+span.k-card-action {
+    padding: 15px 0px;
+    display: inline-block;
+    margin: 1% 1% 1% 2%;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    border: 1px solid #0d24510d;
+    width: 45%;
+    text-align: center;
+}
+
+span.k-card-action:hover {
+    background-color: #0d2451;
+}
+.k-primary.k-button.k-flat {
+    background: #f7f7f7 !important;
+    transition: color .2s ease-in-out;
+    color: #0d2451;
+    box-shadow: none;
+}
+span.k-card-action:hover .k-primary.k-button.k-flat {
+    background-color: #0d2451 !important;
+    color: white;
+}
+span.k-card-action:hover span.k-card-action:before {
+    color: white;
+}
+.k-primary.k-state-hover, .k-primary.k-button.k-flat:hover {
+    transition: background .2s ease-in-out;
+    background-color: #0d2451 !important;
+    color: #fff;
+    box-shadow: none !important;
+}
+span.k-card-action:hover{
+    color: white !important;
+    transition: color .2s ease-in-out;
+   
+}
+
+.k-button::before{
+    background: #0d2451 !important;
+}
+
+/*Card Deck*/
+.k-card-deck-scrollwrap>.k-button:first-child {
+    left: 15px;
+}
+.k-card-deck-scrollwrap>.k-button:last-child {
+    right: 15px;
+}
+
+.k-card-deck-scrollwrap > .k-button {
+    background-color: #0d24512b;
+    border-color: #0d245100;
+}
+
+.k-card-deck-scrollwrap > .k-button:hover {
+    background-color: #0d2451;
+}
+
+.k-card-deck {
+    padding: 10% !important;
+}
+
+.k-card-deck .k-card-subtitle {
+    font-size: small;
+    color: #e1e2e4;
+    text-transform: uppercase;
+    text-align: -webkit-center;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin: 0 0 12px;
+}
+
+.k-card-deck .k-card-title {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: -webkit-center;
+    font-size: large;
+    letter-spacing: 1px;
+    margin: 0 0 12px;
+}
+
+.k-card-deck p {
+    font-size: smaller;
+    color: #fff !important;
+    text-transform: capitalize;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.k-card-deck span.k-card-action:hover {
+    transition: box-shadow,color 0.2s ease-in-out;
+    background-color: #0d2451;
+    border: 1px solid #fff;
+    box-shadow: 0px 3px 10px -4px #ffffff;
+}
+
+.k-card-deck span.k-card-action {
+    width: 95%;
+    margin: 2%;
+    padding: 0px;
+    background: #fff;
+    border: 0;
+}
+.k-card-deck span.k-card-action:before{
+    content:none;
+}
+.k-card-deck .k-card-actions.k-card-actions-vertical {
+    border: 0;
+}
+.k-card-deck .k-primary.k-button.k-flat {
+    background: #fff !important;
+    transition: color .2s ease-in-out;
+    color: #0d2451;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.k-card-deck span.k-card-action:hover {
+    background-color: #0d2451;
+}
+.k-card-deck span.k-card-action:hover .k-primary.k-button.k-flat {
+    background-color: #0d2451 !important;
+    color: white;
+}
+
+
+/*Deck Slider Cards*/
+.k-chat .k-card-deck .k-card, .k-chat .k-card-deck .k-card-wrap {
+    width: 80%;
+    padding: 6%;
+    margin-right: 3%;
+    background-color: #0d2451;
+    border-radius: 10px;
+}
+.k-card > img.k-card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px !important;
+    
+}
+
+/*User Text Message*/
+.k-chat .k-message-group.k-alt .k-first .k-bubble,
+.k-chat .k-message-group.k-alt .k-only .k-bubble{
+    border-bottom-right-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.k-chat .k-alt .k-bubble {
+    border-color: #0d2451;
+    color: #fff;
+    background-color: #0d2451;
+}
+
+
+/*Quick Reply*/
+.k-chat .k-quick-reply:hover {
+    border-color: #fff;
+    color: #fff;
+    background-color: #0d2451;
+}
+
+.k-chat .k-quick-reply {
+    border-color: #0d2451;
+    color: #0d2451;
+    background-color: transparent;
+}.k-quick-replies .k-quick-reply:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 1em;
+    margin: 0px 3px;
+}
+
+.ac-textBlock {
+    color: #fff !important;
+}
+.ac-container {
+    background-color: #0d2451;
+}
